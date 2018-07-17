@@ -1,0 +1,25 @@
+<div class="container">
+    <br>
+    <div class="card-body">
+    <table class="table table-bordered table-hover table-striped">
+      <thead>
+        <tr>
+            <th>Id</th>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Contact</th>
+  
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let k of objAccount">
+
+          <td>{{k._id}}</td>
+          <td>{{k.Name}}</td>
+          <td>{{k.Address}}</td>
+          <td>{{k.Contact}}</td>
+  
+  </tbody>
+  </table>
+  </div>
+  </div>
